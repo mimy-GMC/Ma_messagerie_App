@@ -72,16 +72,16 @@ Avant de commencer, assure-toi d’avoir installé :
 
 5. **Configure Reanimated (plugin Babel)**
 
-Si le fichier babel.config.js n’existe pas, crée-le à la racine avec ce contenu :
-```js
-    module.exports = function(api) {
-        api.cache(true);
-        return {
-            presets: ['babel-preset-expo'],
-            plugins: ['react-native-reanimated/plugin'],
+    Si le fichier babel.config.js n’existe pas, crée-le à la racine avec ce contenu :
+    ```js
+        module.exports = function(api) {
+            api.cache(true);
+            return {
+                presets: ['babel-preset-expo'],
+                plugins: ['react-native-reanimated/plugin'],
+            };
         };
-    };
-```
+    ```
 
 6. **Démarre le serveur de développement**
 
@@ -103,29 +103,29 @@ Si le fichier babel.config.js n’existe pas, crée-le à la racine avec ce cont
 
 7. **Ouvre l’application sur ton téléphone**
 
-- Lance Expo Go.
-
-- Scanne le QR code affiché dans le terminal (ou dans la page web ouverte).
-
-- L’appli s’affiche instantanément
+    - Lance Expo Go.
+    
+    - Scanne le QR code affiché dans le terminal (ou dans la page web ouverte).
+    
+    - L’appli s’affiche instantanément
 
 ---
 
 ## Comment utiliser l’application
 
-- **Voir les conversations :** elles apparaissent sur l’écran d’accueil.
-
-- **Ouvrir une discussion :** tape sur une conversation.
-
-- **Envoyer un message texte :** écris dans le champ en bas, puis appuie sur « Entrée » ou sur le bouton « Envoyer ».
-
-- **Envoyer une photo/vidéo :** appuie sur le bouton +, choisis « Galerie » ou « Appareil photo ».
-
-- **Archiver :** glisse une conversation vers la droite et appuie sur « Archiver ».
-
-- **Supprimer :** glisse une conversation vers la gauche et appuie sur « Supprimer ».
-
-- **Retrouver les conversations archivées :** fais défiler vers le bas de la liste, section « Archivées ». Tu peux les désarchiver ou les supprimer définitivement.
+    - **Voir les conversations :** elles apparaissent sur l’écran d’accueil.
+    
+    - **Ouvrir une discussion :** tape sur une conversation.
+    
+    - **Envoyer un message texte :** écris dans le champ en bas, puis appuie sur « Entrée » ou sur le bouton « Envoyer ».
+    
+    - **Envoyer une photo/vidéo :** appuie sur le bouton +, choisis « Galerie » ou « Appareil photo ».
+    
+    - **Archiver :** glisse une conversation vers la droite et appuie sur « Archiver ».
+    
+    - **Supprimer :** glisse une conversation vers la gauche et appuie sur « Supprimer ».
+    
+    - **Retrouver les conversations archivées :** fais défiler vers le bas de la liste, section « Archivées ». Tu peux les désarchiver ou les supprimer définitivement.
 
 ---
 
