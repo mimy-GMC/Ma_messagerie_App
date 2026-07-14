@@ -5,8 +5,6 @@ Elle permet d’envoyer des messages texte, des photos et des vidéos, avec une 
 
 > **Statut du projet :** en cours d’apprentissage et d’amélioration
 
----
-
 ## Fonctionnalités
 
 - **Liste de conversations** avec avatars colorés (orange & vert).
@@ -20,7 +18,6 @@ Elle permet d’envoyer des messages texte, des photos et des vidéos, avec une 
   - Bouton **+** pour joindre une **photo** ou une **vidéo** (galerie / appareil photo).
 - **Design orange & vert** cohérent et moderne.
 
----
 
 ## Technologies utilisées
 
@@ -31,7 +28,6 @@ Elle permet d’envoyer des messages texte, des photos et des vidéos, avec une 
 - [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) (swipe et gestes)
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) (animations)
 
----
 
 ## Prérequis
 
@@ -43,7 +39,6 @@ Avant de commencer, assure-toi d’avoir installé :
   - [Android (Play Store)](https://play.google.com/store/apps/details?id=host.exp.exponent)
   - [iOS (App Store)](https://apps.apple.com/app/expo-go/id982107779)
 
----
 
 ## Mise en place (installation et lancement)
 
@@ -109,25 +104,23 @@ Avant de commencer, assure-toi d’avoir installé :
     
     - L’appli s’affiche instantanément
 
----
 
 ## Comment utiliser l’application
 
-    - **Voir les conversations :** elles apparaissent sur l’écran d’accueil.
+  - **Voir les conversations :** elles apparaissent sur l’écran d’accueil.
     
-    - **Ouvrir une discussion :** tape sur une conversation.
+  - **Ouvrir une discussion :** tape sur une conversation.
     
-    - **Envoyer un message texte :** écris dans le champ en bas, puis appuie sur « Entrée » ou sur le bouton « Envoyer ».
+  - **Envoyer un message texte :** écris dans le champ en bas, puis appuie sur « Entrée » ou sur le bouton « Envoyer ».
     
-    - **Envoyer une photo/vidéo :** appuie sur le bouton +, choisis « Galerie » ou « Appareil photo ».
+  - **Envoyer une photo/vidéo :** appuie sur le bouton +, choisis « Galerie » ou « Appareil photo ».
     
-    - **Archiver :** glisse une conversation vers la droite et appuie sur « Archiver ».
+  - **Archiver :** glisse une conversation vers la droite et appuie sur « Archiver ».
     
-    - **Supprimer :** glisse une conversation vers la gauche et appuie sur « Supprimer ».
+  - **Supprimer :** glisse une conversation vers la gauche et appuie sur « Supprimer ».
     
-    - **Retrouver les conversations archivées :** fais défiler vers le bas de la liste, section « Archivées ». Tu peux les désarchiver ou les supprimer définitivement.
+  - **Retrouver les conversations archivées :** fais défiler vers le bas de la liste, section « Archivées ». Tu peux les désarchiver ou les supprimer définitivement.
 
----
 
 ## Améliorations futures
 
@@ -141,11 +134,10 @@ Avant de commencer, assure-toi d’avoir installé :
 
 - Appels audio / vidéo
 
----
 
 ## Licence
 Ce projet est réalisé dans un but éducatif et d’apprentissage. Tu es libre de le modifier et de le partager.
 
 ---
 
-**Crée par : ** Miryam GAKOSSO
+**Crée par :** Miryam GAKOSSO
